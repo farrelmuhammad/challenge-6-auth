@@ -1,0 +1,214 @@
+h1 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+header .nav-top {
+    position: absolute;
+    width: 1280px;
+    height: 70px;
+    left: 70px;
+    right: 0;
+    top: 0px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+header .nav-top .logo {
+    position: absolute;
+    width: 100px;
+    height: 34px;
+    left: 24px;
+    top: 18px;
+    background: #CFD4ED;
+}
+
+header .nav-top .icon-menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 244px;
+    top: 23px;
+}
+
+header .nav-top .nav-search {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 245px;
+    height: 36px;
+    left: 837px;
+    top: 17px;
+}
+
+header .nav-top .nav-search .box-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 12px;
+    width: 174px;
+    height: 36px;
+    border: 1px solid #D0D0D0;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #8A8A8A;
+}
+
+header .nav-top .nav-search .box-search > input {
+    border: none;
+    outline: none;
+    padding-left: 8px;
+}
+
+header .nav-top .nav-search .button-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    width: 71px;
+    height: 36px;
+    background-color: white;
+    border: 1px solid #0D28A6;
+    border-radius: 2px;
+    font-weight: 700;
+    color:#0D28A6;
+}
+
+header .nav-top .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    width: 143px;
+    height: 38px;
+    left: 1110px;
+    right: 24px;
+    top: 16px;
+}
+
+header .nav-top .profile > p {
+    position: absolute;
+    width: 65px;
+    height: 20px;
+    left: 46px;
+    top: 9px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+header .nav-top .profile .dropdown {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 119px;
+    top: 7px;
+}
+
+header .nav-side {
+    position: absolute;
+    width: 290px;
+    height: 100%;
+    left: 0px;
+    top: -1px;
+}
+
+header .nav-side .nav-blue {
+    position: absolute;
+    left: 0%;
+    right: 75.86%;
+    top: 0%;
+    bottom: 0%;
+    background: #0D28A6;
+}
+
+header .nav-side .nav-blue .square {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 18px;
+    top: 18px;
+    background: #CFD4ED;
+}
+
+header .nav-side .nav-blue .frame-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    position: absolute;
+    width: 70px;
+    height: 128px;
+    left: 0px;
+    top: 70px;
+}
+
+header .nav-side .nav-blue .frame-menu .dash-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 23px;
+    position: static;
+    width: 70px;
+    height: 64px;
+    left: 0px;
+    top: 0px;
+}
+
+#active {
+    font-weight: 700;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+header .nav-side .nav-blue .frame-menu .dash-img a {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+header .nav-side .nav-blue img:last-child {
+    margin-top: 0;
+}
+
+header .nav-side .nav-white {
+    position: absolute;
+    left: 24.14%;
+    right: 0%;
+    top: 7.76%;
+    bottom: 0.22%;
+}
+
+header .nav-side .nav-white .title-menu {
+    position: absolute;
+    width: 220px;
+    height: 42px;
+    left: 24px;
+    top: 50px;
+}
+
+header .title-menu h1 {
+    font-weight: 700;
+    color: #8A8A8A;
+    left: 24px;
+}
+
+header .nav-side .nav-white .list-menu {
+    position: static;
+    margin-top: 100px;
+    width: 220px;
+    height: 42px;
+    padding: 11px 24px;
+    background: #CFD4ED;
+}
+
+header .list-menu h1 {
+    font-weight: 700;
+    color: #151515;
+    left: 24px;
+}
